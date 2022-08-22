@@ -142,7 +142,11 @@ cursor: pointer;
 }
 
 .title{
-    background-color: #2F303A;
+    background-image: 
+    url(https://s3-alpha-sig.figma.com/img/1131/4362/dd953143a8a4d9f86ec8d71afc0e8103?Expires=1662336000&Signature=RLcgNc16PcbMrdBZgeR~jV3~k94c3XtWzUrosNfeFLcJ5KmjRa5VJLvJP4RxN5cPjPlwJbEvin4IRSYpKfqxisXrP--gu-QGend6eEi4bQ0qMybENkgbbvOiM7PfEp2cydBijln8x6K2upOq582cgrTGGsYf8zVVdhwvqiNmcxt6CYXOTz9c4OPpB1G-JQ1XB3APym2-ft3yCosA~pE7jBYMoWoJAMzrWB1jzWCyyU4rxhRqplw-2YuGjI2w3CuhspSQCfV58Xxh05noeUCPPOVy22ZYddGhECZUS5RShqh9L4ZzeLW1tkZHyNkHqwUiBViG-nHiO6otKdnRNxEEcA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-position: 50% 50%;
+    background-position: left 0 top -160px;
+    background-size: cover;
     padding: 200px 0;
 }
 
