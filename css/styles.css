@@ -236,6 +236,25 @@ h2{
     margin-bottom: 50px;
 }
 
+.clinets-list{
+    display: flex;
+    gap: 30px;
+}
+
+.clinets-list-item{
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+/* #2196f3 */
+
+.clinets-list-item:hover,
+.clinets-list-item:focus{
+    fill: rgb(33, 150, 243);
+}
+
 .portfolio{
     padding: 94px 0;
 }
