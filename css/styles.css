@@ -195,7 +195,6 @@ h1{
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(-secoundary-color);
-    padding-top: 94px;
 }
 
 .par:not(:last-child){
