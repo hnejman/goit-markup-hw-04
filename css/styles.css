@@ -124,6 +124,14 @@ cursor: pointer;
     color: var(-main-color);
 }
 
+.icon-contact{
+    fill:var(--secoundary-color)
+}
+.icon-contact:hover,
+.icon-contact:focus{
+    fill:var(--main-color)
+}
+
 /* ===END=HEADER====== */
 
 /* =======MAIN====== */
