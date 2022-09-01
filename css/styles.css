@@ -351,6 +351,7 @@ h2{
 
 .footer .container{
     display: flex;
+    gap: 70px;
 }
 
  .footer .navigation-logo {
@@ -370,6 +371,16 @@ h2{
 
  .social-container{
     display: flex;
+    gap: 10px;
+ }
+
+ h4{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
  }
 
 .foooter .social-icon{
