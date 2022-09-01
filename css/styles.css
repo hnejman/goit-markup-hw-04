@@ -352,10 +352,14 @@ h2{
 .footer .container{
     display: flex;
     gap: 70px;
+    align-items: baseline;
 }
 
  .footer .navigation-logo {
     color: #ffffff;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
  }
  
  .footer-list{
@@ -368,6 +372,10 @@ h2{
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 9px;
  }
+
+.footer-social-container{
+    padding-top: 12px;
+}
 
  .social-container{
     display: flex;
