@@ -231,6 +231,7 @@ h1{
     letter-spacing: 0.03em;
     padding-bottom: 30px;
     text-align: center;
+    align-content: center;
 }
 
 .team-name{
@@ -240,6 +241,11 @@ h1{
     color: #212121;
     margin-top: 30px;
     margin-bottom: 10px;
+}
+
+.team-list-item .social-container{
+    padding: 0 32px;
+    margin-top: 16px;
 }
 
 h2{
@@ -357,9 +363,6 @@ h2{
 
  .footer .navigation-logo {
     color: #ffffff;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
  }
  
  .footer-list{
@@ -382,13 +385,14 @@ h2{
     gap: 10px;
  }
 
- h4{
+ h5{
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: 20px;
  }
 
 .foooter .social-icon{
@@ -399,6 +403,8 @@ h2{
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    fill: #afb1b8;
  }
  .social-icon:hover,
  .social-icon:focus{
