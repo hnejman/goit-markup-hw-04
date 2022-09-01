@@ -124,6 +124,15 @@ cursor: pointer;
     color: var(-main-color);
 }
 
+.icon-contact{
+    fill:var(--secoundary-color);
+    cursor: pointer;
+}
+.icon-contact:hover,
+.icon-contact:focus{
+    fill:var(--main-color);
+}
+
 /* ===END=HEADER====== */
 
 /* =======MAIN====== */
@@ -340,6 +349,10 @@ h2{
     padding: 60px 0;
 }
 
+.footer .container{
+    display: flex;
+}
+
  .footer .navigation-logo {
     color: #ffffff;
  }
@@ -355,4 +368,25 @@ h2{
     margin-bottom: 9px;
  }
 
+ .social-container{
+    display: flex;
+ }
+
+.foooter .social-icon{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+ .social-icon{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+ }
+ .social-icon:hover,
+ .social-icon:focus{
+    background-color: var(--main-color);
+ }
+ .social-icon:hover .icon-social,
+ .social-icon:focus .icon-social{
+    fill:#fff;
+ }
 /* ===END=FOOTER==== */
