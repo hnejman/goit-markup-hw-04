@@ -128,10 +128,6 @@ cursor: pointer;
     fill:var(--secoundary-color);
     cursor: pointer;
 }
-.icon-contact:hover,
-.icon-contact:focus{
-    fill:var(--main-color);
-}
 
 /* ===END=HEADER====== */
 
