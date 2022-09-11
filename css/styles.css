@@ -117,18 +117,15 @@ body{
     color: var(--secoundary-color);
 }
 
-.contact-link{
+.contact-list-item a{
 color: var(--secoundary-color);
 cursor: pointer;
+ fill: var(--secoundary-color);
 }
-.contact-link:hover,
-.contact-link:focus{
+.contact-list-item:hover a,
+.contact-list-item:focus a{
     color: var(--main-color);
-}
-
-.icon-contact{
-    fill:var(--secoundary-color);
-    cursor: pointer;
+    fill: #2196f3 ;
 }
 
 /* ===END=HEADER====== */
@@ -272,7 +269,8 @@ h2{
     fill: #afb1b8 ;
 }
 
-.clinets-list-item:hover{
+.clinets-list-item:hover,
+.clinets-list-item:focus {
     fill: #2196f3 ;
     border: 1px solid #2196f3;
 }
