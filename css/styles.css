@@ -302,7 +302,7 @@ h2{
     text-align: center;
 }
 .filter-btn:hover,
-.filter:focus{
+.filter-btn:focus{
     color: #FFFFFF;
     background-color: var(--main-color);
 }
@@ -327,7 +327,7 @@ h2{
 
 
 .port-card-label{
-    font-weight: 400;
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.88;
     letter-spacing: 0.03em;
