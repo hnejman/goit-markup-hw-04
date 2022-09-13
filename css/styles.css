@@ -95,13 +95,14 @@ body{
     letter-spacing: 0.02em;
     cursor: pointer;
 }
+.navigation-list-link:visited {
+    color:#212121;
+}
 .navigation-list-link:hover,
 .navigation-list-link:focus{
     color: #2196F3;
 }
-.navigation-list-link:visited {
-    color:#212121;
-}
+
 .contact-list{
     display: flex;
     margin-left: auto;
